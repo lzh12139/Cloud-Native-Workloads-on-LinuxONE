@@ -1,4 +1,6 @@
 var Todo = require('./models/todo');
+// hdd is cdd
+
 
 function getTodos(res) {
     Todo.find(function (err, todos) {
